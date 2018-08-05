@@ -1,4 +1,4 @@
-__author__ = 'wayne'
+__author__ = 'Wayne'
 greeting = "Hello"
 name = input("Please enter your name ")
 print(greeting + ' ' + name)
