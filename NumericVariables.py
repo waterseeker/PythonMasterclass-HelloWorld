@@ -47,3 +47,12 @@ print('But these both return ' + str(8 // 2 * 3))
 
 # you can force an order of operations by using parentheses
 print('This forces left-to-right calculation and returns ' + str((((a + b) / 3) - 4) * 12))
+
+# you can also use variables to store the steps of the calculation
+# to control the flow of operations
+# or make the code a little easier to follow for the reader
+
+c = a + b
+d = c / 3
+e = d - 4
+print('You can control the order of operations by using variables too! The answer is ' + str(e * 12))
