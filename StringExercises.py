@@ -50,3 +50,12 @@ for i in range(lengthOfSlice):
     else:
         insertedCommasIntoSlice += "and " + mySlice[i] + "."
 print('The first 3 characters of ' + myString + ' are ' + insertedCommasIntoSlice)
+
+# if you don't include the first number in the slice
+# it'll start at the beginning of the string by default
+# so myString[:3] will return the same things as myString[0:3]
+print('--------------------------------------------------')
+print(myString[:3])
+print('and')
+print(myString[0:3])
+print('are the same.')
