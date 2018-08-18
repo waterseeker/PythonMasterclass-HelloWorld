@@ -31,8 +31,7 @@ print('The last character in ' + myString + ' is ' + lastLetterInTheString + '.'
 
 # you can access a slice of a string by passing 2 numbers
 # the first number is the beginning index of the string
-# and the second number is the index of the character immediately _after_
-# the last character you want to include in the slice.
+# and the second number is the length of the returned slice
 print('The first 3 characters of ' + myString + ' are ' + myString[0:3] + '.')
 
 # how can I use a for loop on the return of the slice to print
