@@ -39,5 +39,15 @@ print("-------------------------------------------------------------------------
 print("The ** operator is used to raise to a power.")
 print("2 to the power of 9 is {0}.".format(2 ** 9))
 print("--------------------------------------------------------------------------------")
+# if you use a number before the letter in the %X operation
+# the number is the # of spaces that the replacement will use
+# for example, the following assigns 2 spaces for the first set of numbers
+# and 4 for the second.
+# this helps to format the output to make it easier to read.
 for i in range(1, 12):
     print("No. %2d squared is %4d and cubed is %4d" %(i, i ** 2, i ** 3))
+# if you don't assign the # of spaces, it makes it harder to read in this instance
+print("--------------------------------------------------------------------------------")
+print("Without assigning spaces, the output is harder to read")
+for i in range(1, 12):
+    print("No. %d squared is %d and cubed is %d" %(i, i ** 2, i ** 3))
