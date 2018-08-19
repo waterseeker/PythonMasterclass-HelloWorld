@@ -94,4 +94,5 @@ for i in range(1, 12):
     print("I'm not using index numbers in the replacement fields and ... \n"
           "No. {:2} squared is still {:4} and cubed is still {:4}".format(i, i ** 2, i ** 3))
 
-
+# \t will print at the next tab position.
+print("Terry\tJohn\tGraham\tMichael\tEric\tTerry")
