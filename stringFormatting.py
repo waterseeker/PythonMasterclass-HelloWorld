@@ -96,3 +96,10 @@ for i in range(1, 12):
 
 # \t will print at the next tab position.
 print("Terry\tJohn\tGraham\tMichael\tEric\tTerry")
+
+# quiz review for [X:Y:Z] slice format for strings
+quizReviewString = "This is to review what each value does in the [X:Y:Z] slice format for strings."
+x = 0 # this marks the starting point of the slice
+y = 36 # this marks which characters are extracted up to and including this position
+z = 2 # this is the number of spaces skipped between each output
+print(quizReviewString[x:y:z])
