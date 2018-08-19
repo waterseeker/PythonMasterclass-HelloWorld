@@ -89,4 +89,12 @@ print(numbers[1::3])
 print('--------------------------------------------------')
 # you can cancatenate string literals without using the '+' operator
 print("You " "can " "cancatenate " "string " "literals " "without " "using " "'+'.")
+print('--------------------------------------------------')
+# you can print N copies of a string by using *N on the string.
+print(myString *4)
+# you can check for a substring
+today = "Friday"
+print("day" in today) # evals to true
+print("day" in "Thursday") # evals to true
+print("day" in myString) # evals to false
 
