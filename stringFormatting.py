@@ -15,6 +15,7 @@ print("There are {0} days in {1}, {2}, {3}, {4}, {5}, {6}, and {7}.".format(31, 
 print("--------------------------------------------------------------------------------")
 
 # you can use triple quotes to break a string over multiple lines
+# note that you don't have to use the replacement fields in order... 0,1,2,3 etc.
 print("""January: {2}
 February: {0}
 March: {2}
@@ -81,4 +82,16 @@ print("-------------------------------------------------------------------------
 for i in range(1, 12):
     print("No. {0:2} squared is {1:4} and cubed is {2:4}".format(i, i ** 2, i ** 3))
 print("--------------------------------------------------------------------------------")
+# you can control whether the field is right or left justified by using the less-than symbol before the width
+for i in range(1, 12):
+    print("These are left-justified. No. {0:<2} squared is {1:<4} and cubed is {2:<4}".format(i, i ** 2, i ** 3))
+print("--------------------------------------------------------------------------------")
+print("Using string replacement, Pi is approximately {0:12.50f}".format(22 / 7))
+# if you don't declare an index # in the replacement field
+# Python will assume you are using them in order.
+# For example....
+for i in range(1, 12):
+    print("I'm not using index numbers in the replacement fields and ... \n"
+          "No. {:2} squared is still {:4} and cubed is still {:4}".format(i, i ** 2, i ** 3))
+
 
