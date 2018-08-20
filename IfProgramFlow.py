@@ -7,5 +7,7 @@ print(age)
 
 if age >= 18:
     print("You're old enough to vote.")
+    # you can have multiple lines of code in the same code blockß
+    print("Please put an X in the box.")
 else:
     print("Sorry, {0}. You must be 18 years old to vote. Please come back in {1} years.".format(name, 18 - age))

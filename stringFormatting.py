@@ -101,5 +101,6 @@ print("Terry\tJohn\tGraham\tMichael\tEric\tTerry")
 quizReviewString = "This is to review what each value does in the [X:Y:Z] slice format for strings."
 x = 0 # this marks the starting point of the slice
 y = 36 # this marks which characters are extracted up to and including this position
+# a -1 for y means include the entire string. 
 z = 2 # this is the number of spaces skipped between each output
 print(quizReviewString[x:y:z])
